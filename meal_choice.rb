@@ -1,2 +1,10 @@
-# Define a method meal_choice that returns the meal_choice that was
-# passed into it and defaults to meat.
+second = "vegan"
+
+def meal_choice(second, default = "meat")
+  puts "Select #{default} choice."
+end
+
+meal_choice("vegan")
+
+meal_choice
+
