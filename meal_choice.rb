@@ -1,10 +1,6 @@
-second = "vegan"
 
-def meal_choice(second, default = "meat")
-  puts "Select #{default} choice."
+def meal_choice(a="meat")
+  return "#{a}"
 end
 
-meal_choice("vegan")
-
-meal_choice
 
